@@ -1,0 +1,38 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Generated certificates
+certs/*
+!certs/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Node
+node_modules/
+dist/
+build/
+
+# PHP / Composer / Symfony
+vendor/
+var/
+.env.local.php
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+tmp/
+.cache/
